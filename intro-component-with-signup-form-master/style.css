@@ -1,15 +1,37 @@
-* {
+html, body{
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    background: black;
 }
 
 body{
+    display: flex;
     min-height: 100vh;
     background: hsl(0, 100%, 74%);
-    font-size: 22px;
+    background-image: url('./images/bg-intro-desktop.png');
+}
+
+section{
+    margin-top: 10%;
+}
+
+.botao{
+    margin-right: 5%;
+    margin-top: 25%;
+}
+
+h1, h2, p {
+    color: #FFFFFF;
+    Font size: 16px;
 }
 
 
+
+form{
+    margin-top: 10%;
+    background: #FFFFFF;
+    border: 0px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
