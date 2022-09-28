@@ -1,12 +1,10 @@
-* {
+ *{
     border: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
     font-size: 16px;
 }
-
-
 
 body{
     width: 100%;
@@ -15,47 +13,89 @@ body{
     align-items: center;
     background: hsl(0, 100%, 74%);
     background-image: url('./images/bg-intro-desktop.png');
+ 
 }
 
 
-
 .container{
- 
+    margin-left: 10%;   
     width: 80%;
     height: 80vh;
     display: flex;
     align-items: center;
-    margin-left: 10%;
+ 
     
 }
 
+h1{
+    font-size: 40px;
+}
 
-
-.title{
+.box {
+    
     width: 50%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
+    align-items: left;
+    padding: 2rem;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+button {
+    width: 100%;
+    height: 4%;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: hsl(228, 45%, 44%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .form {
-    width: 50%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    
+
 
 }
 
+.input-box {
+    display: flex;
+    margin-bottom: 1.1rem;
+   
+}
 
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 6rem;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c;
+    border-radius: 5px;
+}
 
+.botaoclaim button{
+    width: 100%;
+    margin-top: 0,5rem;
+    padding: 1.5rem 7rem;
+    background-color: rgb(21, 226, 158);
+    
+}
 
+h2 {
+    font-size: 10px;
+    color: rgb(168, 161, 161);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
